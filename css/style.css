@@ -17,11 +17,13 @@ h2 {
 #app-main {
     background-color: #f6f8f9;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .ml-4 {
     margin-left: 4rem;
 }
+
 /* header */
 
 .logo-text {
@@ -76,12 +78,23 @@ h2 {
 
 /* main */
 
-.new-task{
+.new-task {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
-.blue-bg{
+.today {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.upcoming {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.blue-bg {
     background-color: #47adf1;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -89,7 +102,7 @@ h2 {
     border-radius: 10px;
 }
 
-.purple-bg{
+.purple-bg {
     background-color: #9c72e4;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -97,7 +110,7 @@ h2 {
     border-radius: 10px;
 }
 
-.green-bg{
+.green-bg {
     background-color: #64c0a9;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -105,7 +118,7 @@ h2 {
     border-radius: 10px;
 }
 
-.orange-bg{
+.orange-bg {
     background-color: #f29e33;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -113,7 +126,7 @@ h2 {
     border-radius: 10px;
 }
 
-.pink-bg{
+.pink-bg {
     background-color: #d863a1;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -121,7 +134,7 @@ h2 {
     border-radius: 10px;
 }
 
-.light-green-bg{
+.light-green-bg {
     background-color: #b0c926;
     font-size: 0.5rem;
     padding: 0.4rem;
@@ -129,7 +142,22 @@ h2 {
     border-radius: 10px;
 }
 
-.today{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.check {
+    border-radius: 50%;
+    padding: 2px;
+
+    background: #fff;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    text-align: center;
+}
+
+.cross {
+    border-radius: 50%;
+    padding: 1px;
+
+    background: #fff;
+    border: 2px solid red;
+    color: red;
+    text-align: center;
 }
