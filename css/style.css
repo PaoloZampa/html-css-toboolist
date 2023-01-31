@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 #app-header {
     padding-left: 2rem;
     padding-top: 1rem;
@@ -15,6 +19,9 @@
     padding-top: 1rem;
 }
 
+.ml-4 {
+    margin-left: 4rem;
+}
 /* header */
 
 .logo-text {
@@ -31,7 +38,7 @@
     vertical-align: middle;
 }
 
-/* main */
+/* buttons */
 
 .container {
     width: 80%;
@@ -49,10 +56,9 @@
     margin-bottom: 1rem;
     border-width: 2px;
     border-color: #47adf1;
-    margin-left: 4rem;
 }
 
-.button2{
+.button2 {
     padding: 0.5rem;
     border-width: 0px;
     border-radius: 8px;
@@ -60,9 +66,70 @@
     border-width: 2px;
 }
 
-.hr{
+.hr {
     height: 4px;
     border-width: 0px;
     color: #f6f8f9;
     background-color: #f6f8f9;
+    display: block;
+}
+
+/* main */
+
+.new-task{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.blue-bg{
+    background-color: #47adf1;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.purple-bg{
+    background-color: #9c72e4;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.green-bg{
+    background-color: #64c0a9;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.orange-bg{
+    background-color: #f29e33;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.pink-bg{
+    background-color: #d863a1;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.light-green-bg{
+    background-color: #b0c926;
+    font-size: 0.5rem;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.today{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
