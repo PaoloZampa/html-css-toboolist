@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+#app-header{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+/* header */
+
+.logo-text{
+    display: inline-block;
+    font-size: 3rem;
+    color: #051a31;
+    line-height: 70px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.logo{
+    height: 70px;
+    vertical-align: middle;
+}
