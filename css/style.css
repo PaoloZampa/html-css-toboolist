@@ -1,17 +1,23 @@
-*{
+* {
     padding: 0;
     margin: auto;
     font-family: sans-serif;
 }
 
-#app-header{
+#app-header {
     padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#app-main {
+    background-color: #f6f8f9;
     padding-top: 1rem;
 }
 
 /* header */
 
-.logo-text{
+.logo-text {
     display: inline-block;
     font-size: 3rem;
     color: #051a31;
@@ -20,7 +26,43 @@
     font-weight: 700;
 }
 
-.logo{
+.logo {
     height: 70px;
     vertical-align: middle;
+}
+
+/* main */
+
+.container {
+    width: 80%;
+    background-color: white;
+    padding-top: 2rem;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: #47adf1;
+    padding: 0.5rem;
+    color: white;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-width: 2px;
+    border-color: #47adf1;
+    margin-left: 4rem;
+}
+
+.button2{
+    padding: 0.5rem;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-width: 2px;
+}
+
+.hr{
+    height: 4px;
+    border-width: 0px;
+    color: #f6f8f9;
+    background-color: #f6f8f9;
 }
